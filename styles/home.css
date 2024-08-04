@@ -1,0 +1,32 @@
+:root {
+    --bleu: #2596BE;
+    --vert-menthe: #98FF98;
+    --lavende: #E1DEE9;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#backgroundgif img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#homecontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lavende);
+    padding: 20px;
+    border-radius: 20px;
+}

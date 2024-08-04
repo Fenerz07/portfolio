@@ -38,14 +38,23 @@ li{
 li a {
     text-decoration: none;
     color: var(--bleu);
-    text-decoration: bold;
-    text-shadow: var(--lavende) 1px 1px 0;
+    font-weight: bold;
+    text-shadow: 
+        1px 1px 0 var(--lavende),
+        -1px -1px 0 var(--lavende),
+        1px -1px 0 var(--lavende),
+        -1px 1px 0 var(--lavende),
+        1px 0 0 var(--lavende),
+        -1px 0 0 var(--lavende),
+        0 1px 0 var(--lavende),
+        0 -1px 0 var(--lavende);
 }
+
 li img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    padding-right: 150px;
+    padding-right: 160px;
     @media screen and (max-width: 600px){
         width: 70px;
         height: 70px;
