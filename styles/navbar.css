@@ -5,11 +5,14 @@
 }
 
 #navbardiv{
+    position: fixed;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: var(--lavende);
-    padding: 10px 20px;
+    background-color: transparent;
+    padding: 10px 0px;
+    padding-right: 20px;
     margin: 0;
     @media screen and (max-width: 600px){
         padding: 6px 0px;
@@ -29,18 +32,20 @@ ul{
 
 li{
     list-style-type: none;
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 li a {
     text-decoration: none;
     color: var(--bleu);
     text-decoration: bold;
+    text-shadow: var(--lavende) 1px 1px 0;
 }
 li img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
+    padding-right: 150px;
     @media screen and (max-width: 600px){
         width: 70px;
         height: 70px;
