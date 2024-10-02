@@ -1,13 +1,13 @@
 :root {
-    --bleu: #2596BE;
-    --vert-menthe: #98FF98;
+    --bleu-royale: #4169E1;
+    --orange-vif: #FE9553;
     --lavende: #E1DEE9;
+    --noir:#000300;
 }
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background-color: var(--lavende);
-    color:var(--bleu);
+    color:var(--bleu-royale);
     margin: 0;
     padding: 0;
     text-decoration: bold;

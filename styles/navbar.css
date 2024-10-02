@@ -1,7 +1,8 @@
 :root {
-    --bleu: #2596BE;
-    --vert-menthe: #98FF98;
+    --bleu-royale: #4169E1;
+    --orange-vif: #FE9553;
     --lavende: #E1DEE9;
+    --noir:#000300;
 }
 
 #navbardiv{
@@ -37,17 +38,8 @@ li{
 
 li a {
     text-decoration: none;
-    color: var(--bleu);
+    color: var(--bleu-royale);
     font-weight: bold;
-    text-shadow: 
-        1px 1px 0 var(--lavende),
-        -1px -1px 0 var(--lavende),
-        1px -1px 0 var(--lavende),
-        -1px 1px 0 var(--lavende),
-        1px 0 0 var(--lavende),
-        -1px 0 0 var(--lavende),
-        0 1px 0 var(--lavende),
-        0 -1px 0 var(--lavende);
 }
 
 li img {
